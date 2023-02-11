@@ -67,14 +67,95 @@ class HalamanRiwayat extends React.Component {
                   </div>
                 </div>
                 <div className="col-md-6">
-                  <div class="card-body">Jam Kerja : 8 jam 55 Menit</div>
-                  <div class="card-body">Status : Selesai</div>
-                  <div class="card-body">Check in : 08.10.00</div>
-                  <div class="card-body">Check out : 17.05.00</div>
+                  <p className="mt-3">
+                    <b>Bekerja</b>
+                  </p>
+                  <p>Jam Kerja : 8 jam 55 Menit</p>
+                  <p>Status : Selesai</p>
+                  <p>Check in : 08.10.00</p>
+                  <p>Check out : 17.05.00</p>
                 </div>
                 <div className="col-md-2">
                   <i
                     class="bi bi-caret-up-fill"
+                    style={{ 'font-size': '1.5em', 'margin-left': '30px' }}
+                  ></i>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="card shadow mb-5"
+              style={{ 'background-color': '#beecc0' }}
+            >
+              <div className="row">
+                <div className="col-md-4">
+                  <div
+                    class="card-body"
+                    style={{
+                      'margin-left': '10px',
+                    }}
+                  >
+                    <div class="card shadow">
+                      <div
+                        class="card-header text-center font-weight-bold"
+                        style={{ 'background-color': '#ecf949' }}
+                      >
+                        Jan
+                      </div>
+                      <div class="card-body text-center">9</div>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-md-6">
+                  <p className="mt-3">
+                    <b>Bekerja</b>
+                  </p>
+                  <p>Jam Kerja : 8 jam 55 Menit</p>
+                  <p>Status : Selesai</p>
+                </div>
+                <div className="col-md-2">
+                  <i
+                    class="bi bi-caret-down-fill"
+                    style={{ 'font-size': '1.5em', 'margin-left': '30px' }}
+                  ></i>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="card shadow mb-5"
+              style={{ 'background-color': '#beecc0' }}
+            >
+              <div className="row">
+                <div className="col-md-4">
+                  <div
+                    class="card-body"
+                    style={{
+                      'margin-left': '10px',
+                    }}
+                  >
+                    <div class="card shadow">
+                      <div
+                        class="card-header text-center font-weight-bold"
+                        style={{ 'background-color': '#ecf949' }}
+                      >
+                        Jan
+                      </div>
+                      <div class="card-body text-center">8</div>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-md-6">
+                  <p className="mt-3">
+                    <b>Izin</b>
+                  </p>
+                  <p>Jam Kerja : -</p>
+                  <p>Status : -</p>
+                </div>
+                <div className="col-md-2">
+                  <i
+                    class="bi bi-caret-down-fill"
                     style={{ 'font-size': '1.5em', 'margin-left': '30px' }}
                   ></i>
                 </div>
