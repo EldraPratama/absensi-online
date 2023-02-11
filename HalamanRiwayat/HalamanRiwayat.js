@@ -41,10 +41,11 @@ class HalamanRiwayat extends React.Component {
     const { username, password, submitted } = this.state;
     return (
       <div className="col-md-12 col-md-offset-3">
-        <div className="row justify-content-center mt-5">
+        <div className="row justify-content-center mt-4">
           <div className="col-md-5">
+            <h3 class="mb-4">Riwayat</h3>
             <div
-              class="card shadow mb-5"
+              class="card shadow mb-4"
               style={{ 'background-color': '#beecc0' }}
             >
               <div className="row">
@@ -85,7 +86,7 @@ class HalamanRiwayat extends React.Component {
             </div>
 
             <div
-              class="card shadow mb-5"
+              class="card shadow mb-4"
               style={{ 'background-color': '#beecc0' }}
             >
               <div className="row">
@@ -124,7 +125,7 @@ class HalamanRiwayat extends React.Component {
             </div>
 
             <div
-              class="card shadow mb-5"
+              class="card shadow mb-4"
               style={{ 'background-color': '#beecc0' }}
             >
               <div className="row">
