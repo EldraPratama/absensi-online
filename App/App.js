@@ -15,6 +15,7 @@ import { TransaksiPage } from '../TransaksiPage';
 import { AddTransaksi } from '../TransaksiPage';
 import { LoginPage } from '../LoginPage';
 import { RegisterPage } from '../RegisterPage';
+import { HalamanHome } from '../HalamanHome';
 
 class App extends React.Component {
   constructor(props) {
@@ -135,6 +136,7 @@ class App extends React.Component {
                 <PrivateRoute path="/transaksi/add" component={AddTransaksi} />
                 <Route path="/login" component={LoginPage} />
                 <Route path="/register" component={RegisterPage} />
+                <Route path="/home" component={HalamanHome} />
                 <Redirect from="*" to="/" />
               </Switch>
             </Router>
