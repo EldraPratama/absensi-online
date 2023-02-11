@@ -46,7 +46,7 @@ class HalamanRiwayat extends React.Component {
             <h3 class="mb-4">Riwayat</h3>
             <div
               class="card shadow mb-4"
-              style={{ 'background-color': '#beecc0' }}
+              style={{ 'background-color': '#b3ffff' }}
             >
               <div className="row">
                 <div className="col-md-4">
@@ -59,7 +59,7 @@ class HalamanRiwayat extends React.Component {
                     <div class="card shadow">
                       <div
                         class="card-header text-center font-weight-bold"
-                        style={{ 'background-color': '#ecf949' }}
+                        style={{ 'background-color': '#00ff31' }}
                       >
                         Jan
                       </div>
@@ -87,7 +87,7 @@ class HalamanRiwayat extends React.Component {
 
             <div
               class="card shadow mb-4"
-              style={{ 'background-color': '#beecc0' }}
+              style={{ 'background-color': '#b3ffff' }}
             >
               <div className="row">
                 <div className="col-md-4">
@@ -100,7 +100,7 @@ class HalamanRiwayat extends React.Component {
                     <div class="card shadow">
                       <div
                         class="card-header text-center font-weight-bold"
-                        style={{ 'background-color': '#ecf949' }}
+                        style={{ 'background-color': '#00ff31' }}
                       >
                         Jan
                       </div>
@@ -126,7 +126,7 @@ class HalamanRiwayat extends React.Component {
 
             <div
               class="card shadow mb-4"
-              style={{ 'background-color': '#beecc0' }}
+              style={{ 'background-color': '#b3ffff' }}
             >
               <div className="row">
                 <div className="col-md-4">
@@ -139,7 +139,7 @@ class HalamanRiwayat extends React.Component {
                     <div class="card shadow">
                       <div
                         class="card-header text-center font-weight-bold"
-                        style={{ 'background-color': '#ecf949' }}
+                        style={{ 'background-color': '#00ff31' }}
                       >
                         Jan
                       </div>

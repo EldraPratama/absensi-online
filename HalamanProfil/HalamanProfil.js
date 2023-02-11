@@ -4,7 +4,7 @@ import { connect } from 'react-redux';
 
 import { userActions } from '../_actions';
 
-class HalamanPengumuman extends React.Component {
+class HalamanProfil extends React.Component {
   constructor(props) {
     super(props);
 
@@ -43,39 +43,28 @@ class HalamanPengumuman extends React.Component {
       <div className="col-md-12 col-md-offset-3">
         <div className="row justify-content-center mt-4">
           <div className="col-md-5">
-            <h3 class="mb-4">Informasi</h3>
-            <div
-              class="card shadow mb-4"
-              style={{ 'background-color': '#b0fea5' }}
-            >
+            <h3 class="mb-2">Profil Anda</h3>
+
+            <div class="card mb-4" style={{ 'border-color': 'white' }}>
               <div className="row text-center">
-                <i class="bi bi-shop-window" style={{ 'font-size': '3em' }}></i>
-                <h5>
-                  <b>Toko Serbu</b>
-                </h5>
-                <p>Cimahi</p>
+                <i
+                  class="bi bi-person-circle"
+                  style={{ 'font-size': '4em' }}
+                ></i>
               </div>
             </div>
 
-            <h5>Pengumuman</h5>
+            <h5>Informasi Pribadi</h5>
             <div
               class="card shadow mb-4 mt-3"
               style={{ 'border-color': '#3afd1e' }}
             >
               <div className="card-body">
-                <i>
-                  <b> Hallo Semuanya </b>
-                </i>
-              </div>
-              <div className="card-body">
-                <i>
-                  Diberitahukan kepada rekan rekan semua, bahwa pada hari Senin
-                  tanggal 23 Januari diharapkan untuk menggunakan baju batik,
-                  karna rencanan kita akan melakukan sesi poto bersama
-                </i>
-              </div>
-              <div className="card-body">
-                <i>Terimakasih</i>
+                <p>Nama : Eldra Surya Pratama</p> 
+                <p>Jabatan : Penjaga toko</p> 
+                <p>Alamat : Cimahi Selatan, Cimahi, Jawa Barat</p> 
+                <p>Email : eldra@gmail.com</p> 
+                <p>Nomer Hp : 0895330220110</p> 
               </div>
             </div>
 
@@ -127,8 +116,5 @@ const actionCreators = {
   logout: userActions.logout,
 };
 
-const connectedHalamanPengumuman = connect(
-  mapState,
-  actionCreators
-)(HalamanPengumuman);
-export { connectedHalamanPengumuman as HalamanPengumuman };
+const connectedHalamanProfil = connect(mapState, actionCreators)(HalamanProfil);
+export { connectedHalamanProfil as HalamanProfil };

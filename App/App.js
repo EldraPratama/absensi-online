@@ -17,6 +17,7 @@ import { LoginPage } from '../LoginPage';
 import { RegisterPage } from '../RegisterPage';
 import { HalamanHome } from '../HalamanHome';
 import { HalamanRiwayat } from '../HalamanRiwayat';
+import { HalamanProfil } from '../HalamanProfil';
 import { HalamanPengumuman } from '../HalamanPengumuman';
 
 class App extends React.Component {
@@ -140,6 +141,7 @@ class App extends React.Component {
                 <Route path="/register" component={RegisterPage} />
                 <Route path="/home" component={HalamanHome} />
                 <Route path="/pengumuman" component={HalamanPengumuman} />
+                <Route path="/profil" component={HalamanProfil} />
                 <Route path="/riwayat" component={HalamanRiwayat} />
                 <Redirect from="*" to="/" />
               </Switch>
