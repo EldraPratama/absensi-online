@@ -174,19 +174,19 @@ class HalamanHome extends React.Component {
                     style={{ 'font-size': '2em' }}
                   ></i>
                 </a>
-                <a class="navbar-brand mx-auto" href="#">
+                <a class="navbar-brand mx-auto" href="riwayat">
                   <i
                     class="bi bi-clock-history"
                     style={{ 'font-size': '2em' }}
                   ></i>
                 </a>
-                <a class="navbar-brand mx-auto" href="#">
+                <a class="navbar-brand mx-auto" href="pengumuman">
                   <i
                     class="bi bi-megaphone-fill"
                     style={{ 'font-size': '2em' }}
                   ></i>
                 </a>
-                <a class="navbar-brand mx-auto" href="#">
+                <a class="navbar-brand mx-auto" href="profil">
                   <i
                     class="bi bi-person-fill"
                     style={{ 'font-size': '2em' }}
