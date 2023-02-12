@@ -19,6 +19,7 @@ import { HalamanHome } from '../HalamanHome';
 import { HalamanRiwayat } from '../HalamanRiwayat';
 import { HalamanProfil } from '../HalamanProfil';
 import { HalamanPengumuman } from '../HalamanPengumuman';
+import { HalamanAkun } from '../HalamanAkun';
 
 class App extends React.Component {
   constructor(props) {
@@ -140,6 +141,7 @@ class App extends React.Component {
                 <Route path="/login" component={LoginPage} />
                 <Route path="/register" component={RegisterPage} />
                 <Route path="/home" component={HalamanHome} />
+                <Route path="/akun" component={HalamanAkun} />
                 <Route path="/pengumuman" component={HalamanPengumuman} />
                 <Route path="/profil" component={HalamanProfil} />
                 <Route path="/riwayat" component={HalamanRiwayat} />

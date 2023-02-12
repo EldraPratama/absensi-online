@@ -4,7 +4,7 @@ import { connect } from 'react-redux';
 
 import { userActions } from '../_actions';
 
-class HalamanProfil extends React.Component {
+class HalamanAkun extends React.Component {
   constructor(props) {
     super(props);
 
@@ -43,48 +43,12 @@ class HalamanProfil extends React.Component {
       <div className="col-md-12 col-md-offset-3">
         <div className="row justify-content-center mt-4">
           <div className="col-md-5">
-            {/* tampilan user */}
-
-            {/* <h3 class="mb-2">Profil Anda</h3>
-            <div class="card mb-4" style={{ 'border-color': 'white' }}>
-              <div className="row text-center">
-                <i
-                  class="bi bi-person-circle"
-                  style={{ 'font-size': '4em' }}
-                ></i>
-              </div>
-            </div>
-
-            <h5>Informasi Pribadi</h5>
-            <div
-              class="card shadow mb-4 mt-3"
-              style={{
-                'border-color': '#00ff0e',
-                'background-color': '#b3ffb7',
-              }}>
-              <div className="card-body">
-                <p>Nama : Eldra Surya Pratama</p>
-                <p>Jabatan : Penjaga toko</p>
-                <p>Alamat : Cimahi Selatan, Cimahi, Jawa Barat</p>
-                <p>Email : eldra@gmail.com</p>
-                <p>Nomer Hp : 0895330220110</p>
-                <p>Jenis kelamin : Laki-laki</p>
-                <p>NIK : 123456789</p>
-              </div>
-            </div>
-
-            <div className="row justify-content-center">
-              <div className="card rounded-pill bg-danger mt-2 col-md-6">
-                <div className="card-body text-center text-white">KELUAR</div>
-              </div>
-            </div> */}
-
             {/* tampilan admin */}
             <div className="row">
               <div className="col-md-7">
-                <h3 class="mb-3">Profil Karyawan</h3>
-                <i class="text-success">Ke Akun</i>
-                <i class="bi bi-chevron-double-right text-success"></i>
+                <h3 class="mb-3">Akun Karyawan</h3>
+                <i class="bi bi-chevron-double-left text-success"></i>
+                <i class="text-success">Ke Profil</i>
               </div>
             </div>
             <form name="form ">
@@ -108,80 +72,73 @@ class HalamanProfil extends React.Component {
                     />
                   </div>
                 </div>
-                <div className="col-md-3">
-                  <div className="card rounded-pill rounded-5 bg-success">
-                    <div className="text-center">
-                      <i class="text-white">Unduh</i>
-                    </div>
-                  </div>
-                </div>
               </div>
             </form>
 
             <table class="table table-bordered mt-5 mb-5">
               <thead class="table-primary">
                 <tr>
-                  <th scope="col">Nama</th>
-                  <th scope="col">Jabatan</th>
-                  <th scope="col">Handphone</th>
+                  <th scope="col">No</th>
+                  <th scope="col">Username</th>
+                  <th scope="col">Password</th>
                   <th scope="col">Action</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
-                  <td>Tama</td>
-                  <td>Kasir</td>
-                  <td>08552233444</td>
+                  <td>1</td>
+                  <td>Tama123</td>
+                  <td>abdjhsay23eksjdh</td>
                   <td>
-                    <i>Detail Edit Hapus</i>
+                    <i class="text-danger">Reset Password</i>
                   </td>
                 </tr>
                 <tr>
-                  <td>Fauzi</td>
-                  <td>Penjaga Toko</td>
-                  <td>0895330220110</td>
+                  <td>2</td>
+                  <td>Fauzi.farhan12</td>
+                  <td>pasdnk3ugdssq</td>
                   <td>
-                    <i>Detail Edit Hapus</i>
+                    <i class="text-danger">Reset Password</i>
                   </td>
                 </tr>
                 <tr>
-                  <td>Ahmad</td>
-                  <td>Security</td>
-                  <td>085317851111</td>
+                  <td>3</td>
+                  <td>Ahmad321</td>
+                  <td>78dshueyd67</td>
                   <td>
-                    <i>Detail Edit Hapus</i>
+                    <i class="text-danger">Reset Password</i>
                   </td>
                 </tr>
                 <tr>
-                  <td>Andri</td>
-                  <td>Admin</td>
-                  <td>08531234567</td>
+                  <td>4</td>
+                  <td>Andri_cimahi</td>
+                  <td>hdsaujber23yue6</td>
                   <td>
-                    <i>Detail Edit Hapus</i>
+                    <i class="text-danger">Reset Password</i>
                   </td>
                 </tr>
                 <tr>
-                  <td>Faisal</td>
-                  <td>Kasir</td>
-                  <td>0850220110324</td>
+                  <td>5</td>
+                  <td>Faisal.m123</td>
+                  <td>oedj387e378fe7g</td>
                   <td>
-                    <i>Detail Edit Hapus</i>
+                    <i class="text-danger">Reset Password</i>
                   </td>
                 </tr>
                 <tr>
-                  <td>Asep</td>
-                  <td>Penjaga Toko</td>
-                  <td>08951102203</td>
+                  <td>6</td>
+                  <td>AsepRidwan25</td>
+                  <td>pewk48f7i3he7</td>
                   <td>
-                    <i>Detail Edit Hapus</i>
+                    <i class="text-danger">Reset Password</i>
                   </td>
                 </tr>
                 <tr>
-                  <td>Ridwan</td>
-                  <td>Kasir</td>
-                  <td>085011022033</td>
+                  <td>7</td>
+                  <td>Ridwan@bandung</td>
+                  <td>pdskofe763hj</td>
                   <td>
-                    <i>Detail Edit Hapus</i>
+                    <i class="text-danger">Reset Password</i>
                   </td>
                 </tr>
               </tbody>
@@ -235,5 +192,5 @@ const actionCreators = {
   logout: userActions.logout,
 };
 
-const connectedHalamanProfil = connect(mapState, actionCreators)(HalamanProfil);
-export { connectedHalamanProfil as HalamanProfil };
+const connectedHalamanAkun = connect(mapState, actionCreators)(HalamanAkun);
+export { connectedHalamanAkun as HalamanAkun };
