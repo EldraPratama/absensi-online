@@ -43,7 +43,8 @@ class HalamanPengumuman extends React.Component {
       <div className="col-md-12 col-md-offset-3">
         <div className="row justify-content-center mt-4">
           <div className="col-md-5">
-            <h3 class="mb-4">Informasi</h3>
+            {/* tampilan user */}
+            {/* <h3 class="mb-4">Informasi</h3>
             <div
               class="card shadow mb-4"
               style={{ 'background-color': '#b0fea5' }}
@@ -66,6 +67,62 @@ class HalamanPengumuman extends React.Component {
                 <i>
                   <b> Hallo Semuanya </b>
                 </i>
+              </div>
+              <div className="card-body">
+                <i>
+                  Diberitahukan kepada rekan rekan semua, bahwa pada hari Senin
+                  tanggal 23 Januari diharapkan untuk menggunakan baju batik,
+                  karna rencanan kita akan melakukan sesi poto bersama
+                </i>
+              </div>
+              <div className="card-body">
+                <i>Terimakasih</i>
+              </div>
+            </div> */}
+
+            {/* tampilan admin */}
+            <h3 class="mb-4">Pengumuman</h3>
+            <div
+              class="card shadow mb-4"
+              style={{ 'background-color': '#b0fea5' }}
+            >
+              <div className={'input-group mx-auto'} style={{ width: '95%' }}>
+                <input
+                  type="textarea"
+                  className="form-control rounded rounded-5 mt-2"
+                  name="search"
+                  placeholder="Tulis pembuka disini..."
+                />
+              </div>
+              <div
+                className={'input-group mb-3 mx-auto'}
+                style={{ width: '95%' }}
+              >
+                <input
+                  type="textarea"
+                  className="form-control rounded rounded-5 pb-5 pt-3 mt-2"
+                  name="search"
+                  placeholder="Tulis Pengumuman disini..."
+                />
+              </div>
+              <div className="row text-center justify-content-center mt-2 mb-2">
+                <div className="rounded-pill col-md-4 btn btn-primary">
+                  <i>Posting</i>
+                </div>
+              </div>
+            </div>
+
+            <h5>Pengumuman saat ini</h5>
+            <div
+              class="card shadow mb-4 mt-3"
+              style={{ 'border-color': '#3afd1e' }}
+            >
+              <div className="card-body">
+                <i>
+                  <b> Hallo Semuanya </b>
+                </i>
+                <i class="bi bi-pencil-fill ml-5 text-success px-5"></i>
+                <i class="bi bi-trash3-fill text-danger"></i>
               </div>
               <div className="card-body">
                 <i>
