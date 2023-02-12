@@ -80,7 +80,7 @@ class HalamanPengumuman extends React.Component {
             </div>
 
             <nav
-              class="navbar fixed-bottom py-lg-2 col-md-5"
+              class="navbar fixed-bottom py-lg-2 col-md-5 bg-primary"
               style={{ 'background-color': '#e3f2fd', 'margin-left': '410px' }}
             >
               <div class="container-fluid">

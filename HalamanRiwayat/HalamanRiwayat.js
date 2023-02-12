@@ -43,11 +43,11 @@ class HalamanRiwayat extends React.Component {
       <div className="col-md-12 col-md-offset-3">
         <div className="row justify-content-center mt-4">
           <div className="col-md-5">
-            <h3 class="mb-4">Riwayat</h3>
+            {/* halaman user */}
+            {/* <h3 class="mb-4">Riwayat</h3>
             <div
               class="card shadow mb-4"
-              style={{ 'background-color': '#b3ffff' }}
-            >
+              style={{ 'background-color': '#b3ffff' }}>
               <div className="row">
                 <div className="col-md-4">
                   <div
@@ -87,8 +87,7 @@ class HalamanRiwayat extends React.Component {
 
             <div
               class="card shadow mb-4"
-              style={{ 'background-color': '#b3ffff' }}
-            >
+              style={{ 'background-color': '#b3ffff' }}>
               <div className="row">
                 <div className="col-md-4">
                   <div
@@ -126,8 +125,7 @@ class HalamanRiwayat extends React.Component {
 
             <div
               class="card shadow mb-4"
-              style={{ 'background-color': '#b3ffff' }}
-            >
+              style={{ 'background-color': '#b3ffff' }}>
               <div className="row">
                 <div className="col-md-4">
                   <div
@@ -161,10 +159,107 @@ class HalamanRiwayat extends React.Component {
                   ></i>
                 </div>
               </div>
-            </div>
+            </div> */}
+
+            {/* halaman admin */}
+            <h3 class="mb-5">Riwayat Absensi Karyawan</h3>
+            <form name="form ">
+              <div className="row mt-5 mb-5">
+                <div className="col-md-4">
+                  <div className={'input-group mb-3'}>
+                    <button
+                      class="btn btn-outline-primary rounded-end rounded-5"
+                      type="button"
+                      id="button-addon1"
+                      disabled
+                    >
+                      <span class="bi bi-search"></span>
+                    </button>
+                    <input
+                      type="text"
+                      className="form-control rounded-start rounded-5"
+                      name="search"
+                      placeholder="Search"
+                      onChange={this.handleChange}
+                    />
+                  </div>
+                </div>
+                <div className="col-md-4">
+                  <input
+                    type="date"
+                    className="form-control rounded-pill rounded-5"
+                    name="search"
+                    placeholder="Search"
+                  />
+                </div>
+                <div className="col-md-4">
+                  <input
+                    type="date"
+                    className="form-control rounded-pill rounded-5"
+                    name="search"
+                    placeholder="Search"
+                  />
+                </div>
+              </div>
+            </form>
+
+            <table class="table table-bordered mt-5 mb-5">
+              <thead class="table-primary">
+                <tr>
+                  <th scope="col">Nama </th>
+                  <th scope="col">Tanggal</th>
+                  <th scope="col">Jam Kerja</th>
+                  <th scope="col">Status</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Tama</td>
+                  <td>20/01/2023</td>
+                  <td>08.55</td>
+                  <td>Bekerja</td>
+                </tr>
+                <tr>
+                  <td>Fauzi</td>
+                  <td>20/01/2023</td>
+                  <td>09.00</td>
+                  <td>Bekerja</td>
+                </tr>
+                <tr>
+                  <td>Ahmad</td>
+                  <td>20/01/2023</td>
+                  <td>-</td>
+                  <td>Sakit</td>
+                </tr>
+                <tr>
+                  <td>Andri</td>
+                  <td>20/01/2023</td>
+                  <td>-</td>
+                  <td>Izin</td>
+                </tr>
+                <tr>
+                  <td>Faisal</td>
+                  <td>19/01/2023</td>
+                  <td>08.50</td>
+                  <td>Bekerja</td>
+                </tr>
+                <tr>
+                  <td>Asep</td>
+                  <td>19/01/2023</td>
+                  <td>08.50</td>
+                  <td>Bekerja</td>
+                </tr>
+                <tr>
+                  <td>Ridwan</td>
+                  <td>19/01/2023</td>
+                  <td>08.50</td>
+                  <td>Bekerja</td>
+                </tr>
+              </tbody>
+            </table>
 
             <nav
-              class="navbar fixed-bottom py-lg-2 col-md-5"
+              class="navbar fixed-bottom py-lg-2 col-md-5 bg-primary"
               style={{ 'background-color': '#e3f2fd', 'margin-left': '410px' }}
             >
               <div class="container-fluid">

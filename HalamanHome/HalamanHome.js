@@ -43,7 +43,8 @@ class HalamanHome extends React.Component {
       <div className="col-md-12 col-md-offset-3">
         <div className="row justify-content-center mt-5">
           <div className="col-md-5">
-            <div
+            {/* tampilan user */}
+            {/* <div
               class="card shadow mb-5"
               style={{ 'background-color': '#d8d57c' }}
             >
@@ -113,58 +114,77 @@ class HalamanHome extends React.Component {
                   </div>
                 </div>
               </div>
+            </div> */}
+
+            {/* tampilan admin */}
+
+            <div
+              class="card shadow mb-5"
+              style={{ 'background-color': '#d8d57c' }}
+            >
+              <div className="row">
+                <div className="col-md-12">
+                  <div class="card-body text-center">
+                    <h2>Halaman Dashboard</h2>
+                  </div>
+                </div>
+              </div>
             </div>
 
-            {/* <div className="card shadow mb-6 bg-body rounded mt-5">
-              <div className="card-header text-center">
-                <h2>Home</h2>
+            <div className="row mt-5">
+              <div className="col-md-6">
+                <div
+                  class="card shadow"
+                  style={{ 'background-color': '#d26c66' }}
+                >
+                  <div class="card-header text-center">
+                    jumlah data karyawan yang hadir
+                  </div>
+                  <div class="card-body text-center">227</div>
+                </div>
               </div>
-              <div className="card-body">
-                <form name="form" onSubmit={this.handleSubmit}>
-                  <div className={'form-group mb-3'}>
-                    <label htmlFor="username">Username</label>
-                    <input
-                      type="text"
-                      className={
-                        'form-control' +
-                        (submitted && !username ? ' is-invalid' : '')
-                      }
-                      name="username"
-                      value={username}
-                      onChange={this.handleChange}
-                    />
-                    {submitted && !username && (
-                      <div className="text-danger">Username is required</div>
-                    )}
+              <div className="col-md-6">
+                <div
+                  class="card shadow"
+                  style={{ 'background-color': '#dc92df' }}
+                >
+                  <div class="card-header text-center font-weight-bold">
+                    jumlah data karyawan yang izin atau sakit
                   </div>
-                  <div className={'form-group mb-3'}>
-                    <label htmlFor="password">Password</label>
-                    <input
-                      type="password"
-                      className={
-                        'form-control' +
-                        (submitted && !password ? ' is-invalid' : '')
-                      }
-                      name="password"
-                      value={password}
-                      onChange={this.handleChange}
-                    />
-                    {submitted && !password && (
-                      <div className="text-danger">Password is required</div>
-                    )}
-                  </div>
-                  <div className="form-group">
-                    <div className="row col-md-12 justify-content-center">
-                      <div className="row col-md-6">
-                        <button className="btn btn-primary">Login</button>
-                      </div>
-                    </div>
-                  </div>
-                </form>
+                  <div class="card-body text-center">25</div>
+                </div>
               </div>
-            </div> */}
+            </div>
+
+            <div className="row mt-5">
+              <div className="col-md-6">
+                <div
+                  class="card shadow"
+                  style={{ 'background-color': '#92d4df' }}
+                >
+                  <div class="card-header text-center">
+                    jumlah data absensi <br />
+                    karyawan
+                  </div>
+                  <div class="card-body text-center">252</div>
+                </div>
+              </div>
+              <div className="col-md-6">
+                <div
+                  class="card shadow"
+                  style={{ 'background-color': '#87d266' }}
+                >
+                  <div class="card-header text-center font-weight-bold">
+                    jumlah data <br />
+                    karyawan
+                  </div>
+                  <div class="card-body text-center">21</div>
+                </div>
+              </div>
+            </div>
+
             <nav
-              class="navbar fixed-bottom py-lg-2 col-md-5"
+              class="navbar fixed-bottom py-lg-2 col-md-5 bg-primary"
               style={{ 'background-color': '#e3f2fd', 'margin-left': '410px' }}
             >
               <div class="container-fluid">
