@@ -61,7 +61,8 @@ class HalamanProfil extends React.Component {
               style={{
                 'border-color': '#00ff0e',
                 'background-color': '#b3ffb7',
-              }}>
+              }}
+            >
               <div className="card-body">
                 <p>Nama : Eldra Surya Pratama</p>
                 <p>Jabatan : Penjaga toko</p>
@@ -76,6 +77,11 @@ class HalamanProfil extends React.Component {
             <div className="row justify-content-center">
               <div className="card rounded-pill bg-danger mt-2 col-md-6">
                 <div className="card-body text-center text-white">KELUAR</div>
+              </div>
+              <div className="card rounded-pill bg-success mt-2 col-md-6">
+                <div className="card-body text-center text-white">
+                  UBAH SANDI
+                </div>
               </div>
             </div> */}
 
